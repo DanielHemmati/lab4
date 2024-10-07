@@ -24,6 +24,6 @@ jobs:
         run: npm i
 
       - name: Public npm package
-        run: npm public
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
